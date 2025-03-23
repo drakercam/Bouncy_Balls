@@ -1,0 +1,8 @@
+{
+   ignore_raylib
+   Memcheck:Leak
+   match-leak-kinds: definite,indirect,possible
+   fun:*gl*
+   fun:*egl*
+   fun:*X11*
+}
