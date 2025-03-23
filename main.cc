@@ -40,6 +40,8 @@ int main(void)
         Render(delta_time, window_barriers, balls);
     }
 
+    CloseWindow();
+
     return 0;
 }
 
